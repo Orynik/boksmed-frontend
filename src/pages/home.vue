@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{$route.meta}}
+    {{$route.meta.isAdminPage}}
 
     <font-awesome-icon icon="fa-solid fa-user-secret" />
   </div>

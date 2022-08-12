@@ -1,10 +1,13 @@
+<script setup>
+import appHeader from "@/components/layout/appHeader.vue"
+
+</script>
+
 <template>
   <div>
-    <header>
-      Я header
-    </header>
+    <app-header/>
 
-    <div>
+    <div class="wrapper">
       <slot/>
     </div>
 
@@ -13,3 +16,9 @@
     </footer>
   </div>
 </template>
+
+<style lang="scss">
+  .wrapper{
+    padding: 0 104px;
+  }
+</style>
