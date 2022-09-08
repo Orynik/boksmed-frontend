@@ -1,6 +1,28 @@
+@font-face {
+  font-family: "Geometria-Light";
+  src: url("@/assets/fonts/Geometria-Light.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Geometria-Medium";
+  src: url("@/assets/fonts/Geometria-Medium.ttf") format('woff');
+}
+
+@font-face {
+  font-family: "Geometria-Bold";
+  src: url("@/assets/fonts/Geometria-Bold.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-ExtraBold";
+  src: url("@/assets/fonts/Geometria-ExtraBold.ttf") format('woff');
+}
+
 :root {
   --header-background-white: #fff;
-  --page-bacground-white: #E5E5E5;
+  --page-bacground-white: #F5F9FB;
+  --page-color-link: #3257A4;
+  --page-color-main-text: #111111;
 }
 
 * {
@@ -10,11 +32,10 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-
+  font-family: Geometria-Light;
   font-size: 14px;
-  font-weight: 400;
+  color: var(--page-color-main-text);
+  font-weight: 600;
   line-height: 18px;
   background: var(--page-bacground-white);
 }
@@ -22,3 +43,19 @@ body {
 ul {
   list-style-type: none;
 }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*
+КОНЕЦ Спрятать стрелочки в input type number
+*/
