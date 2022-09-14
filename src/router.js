@@ -1,13 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import home from "@/pages/home.vue";
-
 const routes = [
   {
-    path: "/home",
-    name: "homePage",
-    component: home,
-    meta: { isAdminPage: true },
+    path: "",
+    name: "main",
+    component: () => import("@/pages/home.vue"),
+    // meta: { isAdminPage: true },
   },
 ];
 

@@ -1,15 +1,11 @@
-<script setup>
-import appHeader from "@/components/layout/appHeader.vue";
-</script>
-
 <template>
-  <div>
+  <di v>
     <app-header />
 
     <div class="wrapper">
       <slot />
     </div>
-  </div>
+  </di>
 </template>
 
 <style lang="scss">

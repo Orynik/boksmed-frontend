@@ -8,14 +8,12 @@ import booksmedLogo from "@/components/icons/booksmedLogo.vue";
       <booksmed-logo class="page-header-top-nav__logo" />
 
       <div class="page-header-top-nav-catalog">
-        <div class="page-header-top-nav-catalog-menu">
-          КАТАЛОГ
-        </div>
+        <div class="page-header-top-nav-catalog-menu">КАТАЛОГ</div>
 
         <input
           class="page-header-top-nav-search search-block"
           placeholder="Поиск медицинского оборудования"
-        >
+        />
       </div>
 
       <div class="page-header-top-nav-contacts">
@@ -38,27 +36,13 @@ import booksmedLogo from "@/components/icons/booksmedLogo.vue";
     </div>
     <div class="page-header-nav">
       <ul class="page-header-nav-list">
-        <li class="page-header-nav-list__item">
-          О компании
-        </li>
-        <li class="page-header-nav-list__item">
-          Производители
-        </li>
-        <li class="page-header-nav-list__item">
-          Доставка
-        </li>
-        <li class="page-header-nav-list__item">
-          Оплата
-        </li>
-        <li class="page-header-nav-list__item">
-          Новости
-        </li>
-        <li class="page-header-nav-list__item">
-          Реквзиты
-        </li>
-        <li class="page-header-nav-list__item">
-          Контакты
-        </li>
+        <li class="page-header-nav-list__item">О компании</li>
+        <li class="page-header-nav-list__item">Производители</li>
+        <li class="page-header-nav-list__item">Доставка</li>
+        <li class="page-header-nav-list__item">Оплата</li>
+        <li class="page-header-nav-list__item">Новости</li>
+        <li class="page-header-nav-list__item">Реквзиты</li>
+        <li class="page-header-nav-list__item">Контакты</li>
       </ul>
 
       <ul class="page-header-nav-actions-list">
@@ -66,12 +50,8 @@ import booksmedLogo from "@/components/icons/booksmedLogo.vue";
           <font-awesome-icon icon="fa-solid fa-chart-column" />
           Сравнение
         </li>
-        <li class="page-header-nav-actions-list__item">
-          Корзина
-        </li>
-        <li class="page-header-nav-actions-list__item">
-          Личный кабинет
-        </li>
+        <li class="page-header-nav-actions-list__item">Корзина</li>
+        <li class="page-header-nav-actions-list__item">Личный кабинет</li>
       </ul>
     </div>
   </header>
