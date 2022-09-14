@@ -1,22 +1,22 @@
 <template>
   <component :is="strComponentLayout">
-    <router-view/>
+    <router-view />
   </component>
 </template>
 
 <script>
-import defaultLayout from '@/layouts/defaultLayout.vue'
+import defaultLayout from "@/layouts/defaultLayout.vue";
 
-export default{
+export default {
+  components: {
+    defaultLayout,
+  },
   data() {
     return {
-      strComponentLayout: 'defaultLayout'
-    }
+      strComponentLayout: "defaultLayout",
+    };
   },
-  components: {
-    defaultLayout
-  },
-}
+};
 </script>
 
 <style src="@/assets/scss/_main.scss"></style>

@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Geometria-Light";
-  src: url("@/assets/fonts/Geometria-Light.woff") format('woff');
+  src: url("@/assets/fonts/Geometria-Light.woff") format("woff");
 }
 
 @font-face {
   font-family: "Geometria-Medium";
-  src: url("@/assets/fonts/Geometria-Medium.ttf") format('woff');
+  src: url("@/assets/fonts/Geometria-Medium.ttf") format("woff");
 }
 
 @font-face {
@@ -15,13 +15,13 @@
 
 @font-face {
   font-family: "Geometria-ExtraBold";
-  src: url("@/assets/fonts/Geometria-ExtraBold.ttf") format('woff');
+  src: url("@/assets/fonts/Geometria-ExtraBold.ttf") format("woff");
 }
 
 :root {
   --header-background-white: #fff;
-  --page-bacground-white: #F5F9FB;
-  --page-color-link: #3257A4;
+  --page-bacground-white: #f5f9fb;
+  --page-color-link: #3257a4;
   --page-color-main-text: #111111;
 }
 
@@ -52,7 +52,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
