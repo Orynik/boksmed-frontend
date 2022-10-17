@@ -2,59 +2,6 @@
 @import "@csstools/normalize.css";
 @import "@/assets/scss/_base.scss";
 
-@font-face {
-  font-family: "Geometria-Medium";
-  src: url("@/assets/fonts/Geometria-Medium.ttf") format("woff");
-}
-
-@font-face {
-  font-family: "Geometria-Bold";
-  src: url("@/assets/fonts/Geometria-Bold.ttf") format("woff");
-}
-
-@font-face {
-  font-family: "Geometria-ExtraBold";
-  src: url("@/assets/fonts/Geometria-ExtraBold.ttf") format("woff");
-}
-
-:root {
-  --header-background-white: #fff;
-  --page-bacground-white: #f5f9fb;
-  --page-color-link: #3257a4;
-  --page-color-main-text: #111111;
-}
-
-* {
-  box-sizing: content-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Geometria-Light;
-  font-size: 14px;
-  color: var(--page-color-main-text);
-  font-weight: 600;
-  line-height: 18px;
-  background: var(--page-bacground-white);
-}
-
-ul {
-  list-style-type: none;
-}
-
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type="number"] {
-  -moz-appearance: textfield;
-}
-
-/*
-КОНЕЦ Спрятать стрелочки в input type number
-*/
+// Общие стили
+@import "@/assets/scss/_card.scss";
+@import "@/assets/scss/_button.scss";

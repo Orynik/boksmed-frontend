@@ -1,0 +1,13 @@
+.card {
+  border-radius: 15px;
+  background-color: #fff;
+
+  // FIXME: Сделать, чтобы при наведении карто
+  &:hover {
+    box-shadow: inset 0px 0px 3px rgba(50, 87, 164, 0.25);
+  }
+
+  .card--big {
+    border-radius: 45px;
+  }
+}
