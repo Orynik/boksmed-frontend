@@ -1,6 +1,7 @@
-// Основные стили
-@import "@csstools/normalize.css";
-@import "@/assets/scss/_base.scss";
+@font-face {
+  font-family: "Geometria-Light";
+  src: url("@/assets/fonts/Geometria-Light.woff") format("woff");
+}
 
 @font-face {
   font-family: "Geometria-Medium";
