@@ -5,7 +5,6 @@
       "@/*": ["./src/*"],
       "~": ["./node_modules/*"]
     },
-    "jsx": "preserve"
   },
   "exclude": ["node_modules", "dist"]
 }
